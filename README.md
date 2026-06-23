@@ -27,7 +27,7 @@ A modern and responsive personal portfolio website built with **React**, **Vite*
 
 ## 🚀 Live Demo
 
-🔗 **Portfolio:** https://YOUR-VERCEL-LINK.vercel.app](https://asmita-dev.vercel.app/
+🔗 **Portfolio:** https://asmita-dev.vercel.app/
 
 ## 📸 Preview
 
