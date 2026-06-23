@@ -19,11 +19,11 @@ export default function Hero() {
         >
           <div className="w-80 h-80 md:w-[28rem] md:h-[28rem] rounded-full overflow-hidden border-4 border-purple-500 shadow-glow-lg">
             <img
-              src="/src/assets/profile.jpg"
+              src="/profile.jpg"
               alt="Asmita Patil"
               className="w-full h-full object-cover"
               onError={(e) => {
-                e.target.src = '[via.placeholder.com](https://via.placeholder.com/320?text=AP)';
+                e.target.src = 'https://via.placeholder.com/320?text=AP';
               }}
             />
           </div>
