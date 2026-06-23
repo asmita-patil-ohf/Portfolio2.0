@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  background: #09090b;
+  overflow-x: hidden;
+}
+
+body {
+  /*overscroll-behavior: none;*/
+  color: white;
+  background: linear-gradient(
+    135deg,
+    #09090b 0%,
+    #1a102c 30%,
+    #2d1b69 60%,
+    #1a102c 80%,
+    #09090b 100%
+  );
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0D0D0D;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8B5CF6;
+  border-radius: 9999px;
+}
+
+/* Glass card utility */
+.glass {
+  @apply rounded-3xl backdrop-blur-xl border border-violet-500/10;
+  background: rgba(255,255,255,0.04);
+}
+
+/* Glowing border */
+.glow-border {
+  box-shadow:
+    0 0 20px rgba(139, 92, 246, 0.4),
+    inset 0 0 20px rgba(139, 92, 246, 0.1);
+}
