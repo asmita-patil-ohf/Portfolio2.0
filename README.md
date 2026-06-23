@@ -31,7 +31,8 @@ A modern and responsive personal portfolio website built with **React**, **Vite*
 
 ## 📸 Preview
 
-(Add screenshots here later)
+<img width="1918" height="1093" alt="image" src="https://github.com/user-attachments/assets/8c05f525-eea6-442e-998e-805f0cf3c920" />
+
 
 ## 📂 Installation
 
